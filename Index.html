@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movies</title>
+        <link rel="stylesheet" href="Style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script type="text/javascript" src="js/bootstrap.js" ></script>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="Script.js" ></script>      
+    </head>
+    <body class="bg-dark" onload="start()">
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist"> 
+            <h1 class="display-4 text-primary "><b>MOVIES</b></h1>
+        </ul>
+          <div class="tab-content text-white" id="myTabContent">
+            <div class="container">
+              <button type="button" class="btn btn-outline-primary btnHome" onclick="goHome()">
+                  Home
+                </button>
+              <!--Movies All - Trend of the day - Trend of the week-->
+              <div class="dropdown">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Trend of the day</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#" id="All" onclick="Drop(this.id)">All Movies</a>
+                  <a class="dropdown-item" href="#" id="Day" onclick="Drop(this.id)">Trend of the day</a>
+                  <a class="dropdown-item" href="#" id="Week" onclick="Drop(this.id)">Trend of the week</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Genres
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="MenuDrop">
+                  
+                </div>
+              </div>
+              <!--<form class="form-inline">-->
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="Film">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="Search()">Search</button>
+              <!--</form>-->
+              <hr class="new"/>
+            </div>
+            <div class="container-fluid" id="home" aria-labelledby="home-tab">    <!--Home-->
+
+            </div>
+          </div>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+.poster{  /**/
+    width: 260px;
+    padding: 7px;
+    border-radius: 7%;
+    cursor: pointer;
+}
+#myTabContent{
+    padding-top: 10px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+.dropdown-toggle{
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.new{
+  border-top: 2px solid gold;
+  border-radius: 5px;
+}
+input[type="search"]{
+  background-color:rgb(27, 30, 31);
+  border-color: gray;
+  width: 20%;
+  position: relative;
+  left: 55%;
+  transform: translateX(-55%);
+  display: inline-block;
+  top: 5px;
+}
+.btn-outline-success{
+  position: relative;
+  left: 47%;
+  transform: translateX(-47%);
+  display: inline-block;
+  top: 2px;
+}
+.dposter{
+  position: relative;
+  left: -30%;
+  width: 123%;
+  padding: 7px;
+  border-radius: 7%;
+}
+.movtitle{
+  font-variant-caps: all-small-caps;
+  font-size: 3vw;
+  font-family: Blippo, fantasy;
+  color: whitesmoke;
+}
+.divtitle{
+  position: relative;
+  left: 32%;
+  bottom: 75vh;  /*700px*/
+  /*border: 1px solid white;*/
+}
+.divdesc{
+  position: relative;
+  left: -10%;
+  bottom: 70vh; /*630px*/
+  /*border: 1px solid white;*/
+}
+.divVideo{
+  position: absolute;
+  bottom: 8vh; /*50px*/
+  left: 50%;
+}
+  .container{
+      width: 1800px;
+  }
+  .btnHome{
+    margin-top: 5px;
+    margin-left: 10px;
+  }
